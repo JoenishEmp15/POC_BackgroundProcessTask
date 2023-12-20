@@ -1,0 +1,10 @@
+2023-12-20 16:56:13.805 +05:30 [ERR] No browser info available.
+2023-12-20 16:56:13.959 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 16:56:13.964 +05:30 [INF] Hosting environment: Development
+2023-12-20 16:56:13.968 +05:30 [INF] Content root path: C:\Users\Joenish Tech Pvt Ltd\Desktop\demo\new\POC_BackgroundProcess\POC_BackgroundProcess
+2023-12-20 16:56:18.974 +05:30 [ERR] No browser info available.
+2023-12-20 16:56:23.997 +05:30 [ERR] No browser info available.
+2023-12-20 17:33:20.975 +05:30 [ERR] No browser info available.
+2023-12-20 17:33:21.022 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 17:33:21.026 +05:30 [INF] Hosting environment: Development
+2023-12-20 17:33:21.029 +05:30 [INF] Content root path: C:\Users\Joenish Tech Pvt Ltd\Desktop\demo\new\POC_BackgroundProcess\POC_BackgroundProcess
