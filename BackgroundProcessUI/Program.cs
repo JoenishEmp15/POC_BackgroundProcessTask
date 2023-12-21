@@ -7,12 +7,6 @@ using Serilog;
 
 // To customize application configuration such as set high DPI settings or default font,
 // see https://aka.ms/applicationconfiguration.
-Application.EnableVisualStyles();
-Application.SetCompatibleTextRenderingDefault(false);
-
-ApplicationConfiguration.Initialize();
-Application.Run(new BackgroundProcessUI.BackgroundProcessUI());
-
 
 Log.Logger = new LoggerConfiguration()
 .MinimumLevel.Information()
@@ -31,4 +25,9 @@ var builder = Host.CreateDefaultBuilder(args)
         logging.AddSerilog();
     });
 var host = builder.Build();
-host.Run();
+//host.Run();
+
+Application.EnableVisualStyles();
+Application.SetCompatibleTextRenderingDefault(false);
+ApplicationConfiguration.Initialize();
+Application.Run(new BackgroundProcessUI.BackgroundProcessUI());

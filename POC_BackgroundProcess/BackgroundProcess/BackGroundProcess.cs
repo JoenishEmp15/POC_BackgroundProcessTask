@@ -101,7 +101,7 @@ namespace POC_BackgroundProcess
             while (!stoppingToken.IsCancellationRequested)
             {
                 OpenBrowser();
-                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
             }
         }
     }
