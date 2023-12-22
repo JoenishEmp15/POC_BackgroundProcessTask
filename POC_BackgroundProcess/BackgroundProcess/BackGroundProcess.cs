@@ -34,7 +34,7 @@ namespace POC_BackgroundProcess
             {
                 using (var dbContext = new BackgroundProcessDbContext())
                 {
-                    // Fetch a single BrowserInfo record from the database
+                    // Fetch BrowserInfo record from the database
                     _browserInfo = await dbContext.BrowserInfo.FirstOrDefaultAsync();
                 }
             }

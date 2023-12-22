@@ -66,10 +66,8 @@ namespace BackgroundProcessUI
                 return;
             }
             await SaveToDatabase(browserName, url);
-
-            // Start the background process
             this.Hide();
-            MessageBox.Show("Background process started...!\nTo stop the service go to the task manager and find for POC_BackGroundProcess and Click on end process. Thanks!!");
+            MessageBox.Show("Background process started...!\nTo stop the service go to the task manager and find for BackgroundProcessUI and Click on end process. Thanks!!");
             await StartBackgroundProcess();
         }
         #endregion
@@ -87,7 +85,6 @@ namespace BackgroundProcessUI
         {
             var loggerFactory = LoggerFactory.Create(builder => builder.AddSerilog());
             var logger = loggerFactory.CreateLogger<BackGroundProcess>();
-
             _backgroundProcess = new BackGroundProcess(logger);
             await _backgroundProcess.Start();
         }
